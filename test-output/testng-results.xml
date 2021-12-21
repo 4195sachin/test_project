@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Test Case Passed for Pin page and Pin validated succesfully]]>
+    </line>
+    <line>
+      <![CDATA[Validating UserID]]>
+    </line>
+    <line>
+      <![CDATA[User ID Matching, TC 13 is passed]]>
+    </line>
+    <line>
+      <![CDATA[Taking screenshot]]>
+    </line>
+    <line>
+      <![CDATA[Logging out from kite app]]>
+    </line>
+    <line>
+      <![CDATA[closing Browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-12-21T13:59:37 IST" name="Suite" finished-at="2021-12-21T13:59:53 IST" duration-ms="15823">
+    <groups>
+    </groups>
+    <test started-at="2021-12-21T13:59:37 IST" name="test" finished-at="2021-12-21T13:59:53 IST" duration-ms="15823">
+      <class name="testNG.ZerodhakiteAppTest">
+        <test-method is-config="true" signature="intitbrowser()[pri:0, instance:testNG.ZerodhakiteAppTest@741a8937]" started-at="2021-12-21T13:59:37 IST" name="intitbrowser" finished-at="2021-12-21T13:59:50 IST" duration-ms="12698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intitbrowser -->
+        <test-method is-config="true" signature="logging_into_app()[pri:0, instance:testNG.ZerodhakiteAppTest@741a8937]" started-at="2021-12-21T13:59:50 IST" name="logging_into_app" finished-at="2021-12-21T13:59:51 IST" duration-ms="513" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Passed for Pin page and Pin validated succesfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logging_into_app -->
+        <test-method signature="UserIDValid()[pri:0, instance:testNG.ZerodhakiteAppTest@741a8937]" started-at="2021-12-21T13:59:51 IST" name="UserIDValid" finished-at="2021-12-21T13:59:52 IST" duration-ms="1591" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Validating UserID]]>
+            </line>
+            <line>
+              <![CDATA[User ID Matching, TC 13 is passed]]>
+            </line>
+            <line>
+              <![CDATA[Taking screenshot]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- UserIDValid -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testNG.ZerodhakiteAppTest@741a8937]" started-at="2021-12-21T13:59:52 IST" name="logout" finished-at="2021-12-21T13:59:53 IST" duration-ms="566" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logging out from kite app]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:testNG.ZerodhakiteAppTest@741a8937]" started-at="2021-12-21T13:59:53 IST" name="closebrowser" finished-at="2021-12-21T13:59:53 IST" duration-ms="326" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closing Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- testNG.ZerodhakiteAppTest -->
+    </test> <!-- test -->
+  </suite> <!-- Suite -->
+</testng-results>
