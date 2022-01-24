@@ -11,10 +11,11 @@ public class InheritanceStudy extends InheritanceStudy1
 		
 		is1.jobs();
 
-	}
+	}	
 
 	@Override
-	public void jobs() {
+	public void jobs() 
+	{
 		System.out.println("Hi I am Pravin");
 		
 	}
